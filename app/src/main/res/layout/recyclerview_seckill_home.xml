@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/seckill"
+            android:padding="5dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="秒杀倒计时"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70dp"
+            />
+        <TextView
+            android:id="@+id/tv_tiem_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HH-MM-SS"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:background="#e68b99"
+            />
+
+        <TextView
+            android:id="@+id/tv_gengduo_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看更多"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/right"
+            android:paddingRight="10dp"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_seckill_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ff2d2d">
+    <ImageView
+        android:id="@+id/titlebar_scan_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/scan_main"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/titlebar_search_home"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="55dp"
+        android:background="@drawable/search_home_shap"
+        android:drawableLeft="@mipmap/seek_main"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawablePadding="15dp"
+        android:text="输入搜索信息"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:id="@+id/titlebar_news_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:text="消息"
+        android:textSize="15sp"
+        android:drawableTop="@mipmap/news_main"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        />
+</RelativeLayout>
